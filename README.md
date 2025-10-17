@@ -1,5 +1,6 @@
 # company_analysis
-Projeto de análise, transformação e visualização de dados.
+Projeto de análise, transformação e visualização de dados com a
+criação de um dashboard corporativo utilizando MySQL como banco de dados e Power BI
 
 
 ### Screenshot
