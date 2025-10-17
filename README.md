@@ -6,6 +6,32 @@ criação de um dashboard corporativo utilizando MySQL como banco de dados e Pow
 ### Screenshot
 <img width="893" height="499" alt="image" src="https://github.com/user-attachments/assets/0e06e20b-3fe7-4012-9767-65923f39a12a" />
 
+### 🎯 Objetivo
+Criar um banco de dados utilizando Azure, realizar ETL com o Power BI e transformar os dados para os relatórios e dashboards.
+
+### 🛠️ Tecnologias Utilizadas
+- **MySQL** - Banco de dados relacional
+- **Power BI** - Ferramenta de Business Intelligence
+- **SQL** - Linguagem de consulta estruturada
+
+- ## 🚀 Pré-requisitos
+- MySQL Server instalado localmente
+- Power BI Desktop
+- Conhecimento básico em SQL
+
+## 🚀 Como Executar o Projeto
+
+### 1. Configuração do Banco de Dados
+```sql
+-- Execute o script de criação do banco e inserção de dados
+mysql -u root -p < companyDB_mysql.sql
+
+``` 
+### 2. Conexão com Power BI
+1. Abra o Power BI Desktop
+2. Selecione **"Obter Dados"** → **"Banco de Dados"** → **"Banco de Dados MySQL"**
+3. Faça a conexão com seu servidor MySQL local
+4. Selecione as tabelas para análise
 
 
 ## Descrição do desafio de projeto
