@@ -24,30 +24,29 @@ criação de um dashboard corporativo utilizando MySQL como banco de dados e Pow
     
 ## Diretrizes para transformação dos dados 
 
-- Verifique os cabeçalhos e tipos de dados
+    1 Verifique os cabeçalhos e tipos de dados
     	Feito, dados foram verificados e ajustados.
     	
--  Modifique os valores monetários para o tipo double preciso
+    2  Modifique os valores monetários para o tipo double preciso
     	Feito, Alterar tipo >> Número decimal fixo
     
-- Verifique a existência dos nulos e analise a remoção
+    3   Verifique a existência dos nulos e analise a remoção
     	Realizado, removida a seleção da opção null
     
- - Os employees com nulos em Super_ssn podem ser os gerentes. Verifique se há algum colaborador sem gerente
+    4 Os employees com nulos em Super_ssn podem ser os gerentes. Verifique se há algum colaborador sem gerente
     	sim, funcionário James Borg é gerente do departamento Headquarters
     	
- -   Verifique se há algum departamento sem gerente
+    5   Verifique se há algum departamento sem gerente
     	Não, possui departamento sem gerente na base de dados.
     	
- -   Se houver departamento sem gerente, suponha que você possui os dados e preencha as lacunas
+    6  Se houver departamento sem gerente, suponha que você possui os dados e preencha as lacunas
     
--   Verifique o número de horas dos projetos
+    7 Verifique o número de horas dos projetos
     Foi criada uma mesclagem entre as tabelas project, work_on e employee apresentar os nomes dos funcionários, nome dos projetos e horas trabalhadas 
      
-       <img width="1033" height="247" alt="image" src="https://github.com/user-attachments/assets/3b0fbd57-d56f-4aa4-8ad6-5a921408ee8e" />
+<img width="1033" height="247" alt="image" src="https://github.com/user-attachments/assets/3b0fbd57-d56f-4aa4-8ad6-5a921408ee8e" />
 
-    
--  Separar colunas complexas
+    8 Separar colunas complexas
   Foi separada a coluna address 
     	
  
@@ -57,7 +56,7 @@ criação de um dashboard corporativo utilizando MySQL como banco de dados e Pow
  <img width="165" height="200" alt="image" src="https://github.com/user-attachments/assets/3f32a5be-e7c7-45d2-a53f-a8fb63b67791" />
 
     	
--  Mesclar consultas employee e departament para criar uma tabela employee com o nome dos departamentos associados aos colaboradores. A mescla terá como base a tabela employee. Fique atento, essa informação influencia no tipo de junção
+    9 Mesclar consultas employee e departament para criar uma tabela employee com o nome dos departamentos associados aos colaboradores. A mescla terá como base a tabela employee. Fique atento, essa informação influencia no tipo de junção
     	Foi criada a mesclagem employee_departament 
     	
 <img width="672" height="144" alt="image" src="https://github.com/user-attachments/assets/96605ca8-f34c-4306-94fe-8d0852f8b391" />
